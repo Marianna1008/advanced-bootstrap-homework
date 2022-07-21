@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hey there! I'm a frontend developer and this is my first portfolio">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <title>Front-end developer|Mariana Romaniuk</title>
+
+    <style>
+     @media (max-width: 576px) { 
+    h1 {
+      font-size: 30px !important;      
+    }
+     h2 {
+      font-size: 24px !important;      
+    }
+    .hide-img{
+        display: none !important;
+    }
+    .btn-contact, .btn-about, .btn-contact-2, .btn-about-2{
+        padding: 10px 15px !important;  
+    }  
+    .container-img{
+        padding: 20px !important;
+    }
+    
+  }
+    body{
+    font-family: Georgia, serif;
+    background-color: azure;    
+        }
+        .container{
+            max-width: 100%;
+        }
+
+    .buttons{
+        display: flex;
+        justify-content: center;            
+    }
+    .btn-contact, .btn-about{
+        padding: 15px 20px;    
+        margin: 20px;
+        border-radius: 10px;
+        color: azure;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .btn-contact, .btn-about:hover{
+    background-color: #347474;
+    color: azure;
+    }
+    .btn-about, .btn-contact:hover{
+    background-color: #42b883;
+    color: azure;
+    }
+    .container-img{
+      background-color: #c5e1d4; 
+      border-radius: 10px; 
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .container-text{      
+      border-radius: 10px; 
+      padding: 15px;
+    }
+
+    .btn-contact-2, .btn-about-2{
+        padding: 15px 20px;    
+        border-radius: 10px;
+        color: azure;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .btn-contact-2, .btn-about-2:hover{
+    background-color: #347474;
+    color: azure;
+    }
+    .btn-about-2, .btn-contact-2:hover{
+    background-color: #42b883;
+    color: azure;
+    }
+    .navbar{
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */   
+    }
+    .nav-menu{
+        background-color: #42b883;               
+    }
+    
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            <nav class="navbar navbar-expand-lg nav-menu "">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="advanced-bootstrap-homework.html">▪ Mariana ▪</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="advanced-bootstrap-homework.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-me-page.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-me-page.html#contact-me">Contact Me</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>            
+        </div>
+        <div  class="text-center" style="margin-top: 80px;">            
+            <h2 style="color:#347474;font-weight: 600; font-size: 32px;">🌳 Hey there! I am</h2>
+            <h1 style="color:#35495e; font-weight: 600; font-size: 46px;">Mariana Romaniuk</h1>
+            <h2 style="color:#347474;font-weight: 600; font-size: 32px;">Front-end developer</h2> 
+        </div>
+        <div class="buttons">
+            <a href="about-me-page.html#contact-me" target="_blank" class="btn-contact">Contact Me</a>
+            <a href="about-me-page.html" target="_blank" class="btn-about">About Me</a>
+        </div>
+
+        <div class="container-2" style="max-width: 800px; margin: 20px auto;">
+            <div class="row">
+                <div class="col-sm-6 container-img">
+                    <img class="img-fluid" style="border-radius: 10px ;box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);" src="https://media.istockphoto.com/photos/reflection-of-denali-picture-id1320222457?k=20&m=1320222457&s=612x612&w=0&h=L1dokPvPiqGZ4ML5hV20eIJ-OwV25f-s26jFVS3ymIw=" alt="Nature">
+                </div>
+                <div class="col-sm-6 container-text">
+                    <div>
+                       <h3 style="color:#35495e; font-weight: 600;">Remarkable view</h3>
+                    </div>
+                    <div>
+                        <p style="color:#35495e; text-align: justify;">Studies show that a minimum of 2 hours a week spent in nature, either at one time or over several visits, is needed to
+                        significantly increase your health and well being. <br><br>Two hours may sound like a lot when you’re balancing school, personal
+                        time, and potentially work – but your health is worth the investment!</p>
+                    </div>
+                    <div style="margin: 30px auto 20px auto;">
+                        <a href="" target="_blank" class="btn-about-2" >Read More</a>
+                    </div>
+                </div>            
+            </div>
+            <div class="row">
+                <div class="col-sm-6 container-text">
+                    <div>
+                        <h3 style="color:#35495e; font-weight: 600;">Forest bathing</h3>
+                    </div>
+                    <div>
+                        <p style="color:#35495e; text-align: justify;">While a walk in the woods will help combat stress, try moving your workout outdoors. <br><br>When performed regularly,
+                        exercising in nature can reduce the risk of mental health problems by up to 50%.</p>
+                    </div>
+                    <div style="margin: 30px auto 20px auto;">
+                        <a href="" target="_blank" class="btn-about-2">Read More</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 container-img hide-img">
+                    <img  style="width: 100%; height: auto; border-radius: 10px ; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);" src="https://img.freepik.com/free-photo/beautiful-scenery-river-surrounded-by-greenery-forest_181624-40482.jpg?t=st=1658081720~exp=1658082320~hmac=b71c89685c86d1467d9c91cba23b1e70ef599c95cfbf93df3e448c2c49e741aa&w=1060" alt="Nature">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 container-img">
+                    <img class="img-fluid" style="border-radius: 10px ; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);" src="https://tourscanner.com/blog/wp-content/uploads/2018/03/trek.jpg" alt="Nature">
+                </div>
+                <div class="col-sm-6 container-text">
+                    <div>
+                        <h3 style="color:#35495e; font-weight: 600;">Hiking</h3>
+                    </div>
+                    <div>
+                        <p style="color:#35495e; text-align: justify;">When you hike, blood flows to the brain, carrying with it oxygen and important nutrients. <br><br> Studies have shown that this
+                        increased blood flow improves connections between neurons in the parts of the brain that are in charge of memory and
+                        cognitive function.</p>
+                    </div>
+                    <div style="margin: 30px auto 20px auto;">
+                        <a href="" target="_blank" class="btn-about-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
